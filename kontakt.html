@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forest Company</title>
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik+Wet+Paint&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/3925538669.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="dist/css/style.min.css">
+</head>
+
+<body>
+    <nav class="nav-mobile">
+        <div class="nav-mobile__items">
+            <a class="nav-mobile__item nav-mobile__logo" href="index.html"><i class="fa-solid fa-tree"></i> Forest</a>
+            <a class="nav-mobile__item nav-mobile__burger"><i class="fa-solid fa-bars"></i></a>
+        </div>
+    </nav>
+    <div class="side-nav">
+        <div class="items">
+            <a href="index.html#home" class="item">Home</a>
+            <a href="index.html#aboutus" class="item">O nas</a>
+            <a href="index.html#offers" class="item">Oferta</a>
+            <a href="kontakt.html" class="item">Kontakt</a>
+        </div>
+    </div>
+    <nav class="nav-desktop">
+        <div class="wrapper">
+            <div class="nav-desktop__container">
+                <a href="index.html" class="nav-desktop__logo"><i class="fa-solid fa-tree"></i> Forest</a>
+                <div class="nav-desktop__items">
+                    <a href="index.html" class="nav-desktop__item">Home</a>
+                    <a href="index.html#aboutus" class="nav-desktop__item">O nas</a>
+                    <a href="index.html#offers" class="nav-desktop__item">Oferta</a>
+                    <a href="./kontakt.html" class="nav-desktop__item active" style="margin-right: 0;">Kontakt</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <main class="contact">
+        <p class="contact-title">napisz do nas</p>
+        <div class="wrapper">
+            <div class="contact__container">
+                <div class="contact__container__form-container">
+                    <form class="contact__container__form-container__form" method="post">
+
+                        <div class="form-item">
+                            <input type="text" class="input name-input" name="name" id="name">
+                            <label for="name" class="name-label label">Imie: </label>
+                        </div>
+
+                        <div class="form-item">
+                            <input type="text" class="surname-input input" name="surname" id="surname">
+                            <label for="surname" class="surname-label label">Nazwisko: </label>
+                        </div>
+
+                        <div class="form-item">
+                            <input type="email" class="email-input input" name="email" id="email">
+                            <label for="email" class="email-label label">Email: </label>
+                        </div>
+                        <div class="form-item">
+                            <textarea name="" id="" class="textarea textarea-input"></textarea>
+                            <label for="email" class="textarea-label">Wiadomość: </label>
+                        </div>
+                        <div class="form-item">
+                            <input type="submit" value="Wyślij" class="form-button">
+                        </div>
+                        <p class="form-error"></p>
+                        <p class="politics-info">Wypełniając formularz, akceptujesz naszą <a href="polityka.html">Politykę
+                                prywatności</a></p>
+                    </form>
+
+                </div>
+                <div class="firm-info">
+                    <div class="firm-info__info">
+                        <h3>Siedziba: </h3>Jasnogórska 2, Kraków
+                    </div>
+                    <div class="firm-info__info">
+                        <h3>Infolinia: </h3> +48 123 456 789
+                    </div>
+                    <div class="firm-info__info third">
+                        <h3>E-mail: </h3> forest@company.com
+                    </div>
+                </div>
+            </div>
+
+
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d641.687131346452!2d19.8930488598563!3d50.088495087773175!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47165a326d015c3b%3A0x47a12cd367a1f34e!2sRestauracja%20McDonald&#39;s!5e0!3m2!1spl!2spl!4v1733246173146!5m2!1spl!2spl"
+                width="100%" height="350" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="wrapper">
+            <div class="footer__container">
+                <a href="index.html#home" class="logo"><i class="fa-solid fa-tree"></i> Forest</a>
+                <div class="footer__container__all-options">
+                    <div class="footer__container__options">
+                        <h3 class="options-title">O nas</h3>
+                        <ul class="options-list">
+                            <li class="list-child">Historia</li>
+                            <li class="list-child">Parki</li>
+                            <li class="list-child">Opinie</li>
+                        </ul>
+                    </div>
+                    <div class="footer__container__options">
+                        <h3 class="options-title">Nasza firma</h3>
+                        <ul class="options-list">
+                            <li class="list-child">Praca</li>
+                            <li class="list-child">Kadry</li>
+                            <li class="list-child">Zarząd</li>
+                        </ul>
+                    </div>
+                    <div class="footer__container__options">
+                        <h3 class="options-title">Dokumenty</h3>
+                        <ul class="options-list">
+                            <li class="list-child">Wnioski</li>
+                            <li class="list-child">Rezerwacje</li>
+                            <li class="list-child">Wizyta</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <hr>
+    <div class="admin">
+
+        <p class="copy">&#169; 2024</p> Forest Group Company
+    </div>
+
+
+
+
+
+
+    <script src="./dist/js/form.min.js"></script>
+</body>
+
+</html>

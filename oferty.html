@@ -15,7 +15,7 @@
     <link rel="stylesheet" href="dist/css/style.min.css">
 </head>
 
-<body class="main-page">
+<body>
     <nav class="nav-mobile">
         <div class="nav-mobile__items">
             <a class="nav-mobile__item nav-mobile__logo" href="index.html"><i class="fa-solid fa-tree"></i> Forest</a>
@@ -35,15 +35,15 @@
             <div class="nav-desktop__container">
                 <a href="index.html" class="nav-desktop__logo"><i class="fa-solid fa-tree"></i> Forest</a>
                 <div class="nav-desktop__items">
-                    <a href="#home" class="nav-desktop__item active">Home</a>
+                    <a href="#home" class="nav-desktop__item">Home</a>
                     <a href="#aboutus" class="nav-desktop__item">O nas</a>
-                    <a href="#offers" class="nav-desktop__item">Oferta</a>
+                    <a href="#offers" class="nav-desktop__item active">Oferta</a>
                     <a href="./kontakt.html" class="nav-desktop__item" style="margin-right: 0;">Kontakt</a>
                 </div>
             </div>
         </div>
     </nav>
-    <header class="header section" id="home">
+    <header class="header" id="home">
         <div class="bg-shadow"></div>
         <div class="wrapper">
             <p>Forest Group</p>
@@ -52,47 +52,27 @@
         </div>
     </header>
     <main class="main">
-        <section class="about-us section" id="aboutus">
+        <section class="offers2" id="offers">
             <div class="wrapper">
-                <p class="section-title">o nas</p>
-                <img src="./dist/img/water-sm.jpg" alt="jezioro mazurskie w naszym parku">
-                <div class="aboutme-text">
-                    <h3 class="aboutme-text__title">Niezapomniane przygody</h3>
-                    <p class="aboutme-text__text">Pobyt w naszym parku to niezapomniana przygoda, która zapewni Ci
-                        niezliczoną ilość wrażeń i emocji. Oferujemy wyjątkowe atrakcje, które łączą przygodę z relaksem
-                        – od malowniczych spacerów po ścieżkach wśród natury, po ekscytujące aktywności na świeżym
-                        powietrzu. Nasze tereny obfitują w różnorodne krajobrazy, które zachwycą każdego miłośnika
-                        przyrody – od dzikich lasów po otwarte przestrzenie z przepięknymi widokami.</p>
-                </div>
-            </div>
-        </section>
-        <section class="adventure">
-            <div class="bg-shadow"></div>
-            <div class="adventure__box">
-                <h3 class="adventure__text">Przygoda dla całej rodziny</>
-            </div>
-        </section>
-        <section class="offers section" id="offers">
-            <div class="wrapper">
-                <p class="section-title">oferta</p>
-                <p class="offers__undertitle">Która oferta Tobie najbardziej odpowiada?</p>
+                <p class="section-title">oferty specjalne</p>
+                <p class="offers__undertitle">Do której zalicza się Twoja grupa?</p>
                 <div class="offers__container">
                     <div class="offers__offer">
-                        <div class="offers__offer__title">Basic</div>
+                        <div class="offers__offer__title">Grupa do 10 osób</div>
                         <h3 class="offers__offer__price">0zł</h3>
                         <div class="offers__offer__options-container">
                             <p class="offers__offer__option in"><i class="fa-solid fa-check"></i> Wirtualny spacer</p>
                             <p class="offers__offer__option in"><i class="fa-solid fa-check"></i> Park rozrywki
                             </p>
 
-                            <p class="offers__offer__option out"><i class="fa-solid fa-minus"></i> Darmowe toalety</p>
-                            <p class="offers__offer__option out"><i class="fa-solid fa-minus"></i> Darmowe jedzenie</p>
-                            <p class="offers__offer__option out"><i class="fa-solid fa-minus"></i> Przewodnik</p>
+                            <p class="offers__offer__option out"><i class="fa-solid fa-check"></i> Darmowe toalety</p>
+                            <p class="offers__offer__option out"><i class="fa-solid fa-check"></i> Darmowe jedzenie</p>
+                            <p class="offers__offer__option out"><i class="fa-solid fa-check    "></i> Przewodnik</p>
                         </div>
                         <button class="offers__offer__select light-green">Wybierz</button>
                     </div>
                     <div class="offers__offer">
-                        <div class="offers__offer__title">Standard</div>
+                        <div class="offers__offer__title">Grupa do 25 osób</div>
                         <h3 class="offers__offer__price">99zł</h3>
                         <div class="offers__offer__options-container">
                             <p class="offers__offer__option in"><i class="fa-solid fa-check"></i> Wirtualny spacer</p>
@@ -100,12 +80,12 @@
                             </p>
                             <p class="offers__offer__option in"><i class="fa-solid fa-check"></i> Darmowe toalety</p>
                             <p class="offers__offer__option out"><i class="fa-solid fa-check"></i> Darmowe jedzenie</p>
-                            <p class="offers__offer__option out"><i class="fa-solid fa-minus"></i> Przewodnik</p>
+                            <p class="offers__offer__option out"><i class="fa-solid fa-check"></i> Przewodnik</p>
                         </div>
                         <button class="offers__offer__select green">Wybierz</button>
                     </div>
                     <div class="offers__offer">
-                        <div class="offers__offer__title">Premium</div>
+                        <div class="offers__offer__title">Grupa Niestandardowa</div>
                         <h3 class="offers__offer__price">299zł</h3>
                         <div class="offers__offer__options-container">
                             <p class="offers__offer__option in"><i class="fa-solid fa-check"></i> Wirtualny spacer</p>
@@ -119,7 +99,6 @@
                         <button class="offers__offer__select light-green">Wybierz</button>
                     </div>
                 </div>
-                <p class="offers-link">Dowiedz się więcej: <a class="offers-link-a" href="./oferty.html">Oferty</a></p>
             </div>
         </section>
     </main>
@@ -160,7 +139,6 @@
     <div class="admin">
         <p class="copy">&#169; 2024</p> Forest Group Company
     </div>
-    <script src="./src/js/script.js"></script>
 </body>
 
 </html>
